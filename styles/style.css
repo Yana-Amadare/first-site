@@ -36,7 +36,7 @@ body {
 .horizontal-menu li {
     display: inline-block;
     position: relative;
-   padding: 15px;
+    padding: 15px;
 }
 
 .horizontal-menu a {
@@ -65,20 +65,69 @@ body {
 }
 
 .main-menu {
+   background: #f5f5f5;
+   padding: 40px;
+}
+
+.main-menu h1 {
     text-align: center;
     font-family: arial;
     font-size: 25px;
     display: block;
     padding: 20px;
+    color: gray;
 }
 
-/*.tiger {
-    position: relative;
-    top: 100px;
-    left: 100px;
+.main-menu h3 {
+    font-family: arial;
+    font-size: 20px;
+    text-align: center;
+    
+}
+
+.main-menu ul {
+    display: block;
+    list-style: none;
+    
+}
+
+.main-menu li {
+    display: block;
+    width: 350px;
+    height: 650px;
+    background: #ffffff;
+    font-family: arial;
+    line-height: 22px;
+    color: gray;
+    
+}
+
+.humming-bird {
+    float: right;
+    margin-right: 90px;
+}
+
+.tiger {
     float: left;
-    width: 300px;
-    height: 300px;
-    background: url("photobank/bengal-tiger-2126024_1280.jpg") no-repeat;
-    background-position: top;
+    margin-right: 90px;
+    margin-left: 80px;
+}
+
+.flamingo {
+    float: left;
+    margin-right: 80px;
+}
+
+.animal1-description,
+.animal2-description,
+.animal3-description {
+   display: inine-block;
+   padding-left: 20px;
+   padding-right: 20px;
+   padding-bottom: 20px;
+}
+
+.clearfix {
+    clear: both;
+    height: 0px;
 }
