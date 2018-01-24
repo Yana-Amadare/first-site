@@ -12,9 +12,9 @@ header a {
    font-family: arial;
 }
 
-
 body {
-    margin: 0;
+    margin: 0px;
+    padding: 0px;
 }
 
 .logo {
@@ -25,43 +25,61 @@ body {
     float: right;
     text-shadow: 5px 5px 5px gray;
     padding-top: -50px;
+    padding-right: 20px;
 }
 
 .horizontal-menu {
-    display: block;
     list-style: none;
-    padding-top: 60px;
+    padding-top: 70px;
+    height: 30px;
 }
 
-.horizontal-menu li {
+.horizontal-menu > li {
     display: inline-block;
     position: relative;
-    padding: 15px;
+    width: 150px;
+    padding-left: 30px;
+}
+
+.stripe {
+    background: white;
+    width: 2000px;
+    height: 8px;
+    position: absolute;
+    display: inline-block;
+    left: -100px;
 }
 
 .horizontal-menu a {
     display: block;
+    line-height: 35px;
+    letter-spacing: 5px;
 }
 
-.horizontal-menu.sub-menu {
+
+.horizontal-menu .sub-menu {
    position: absolute;
+   list-style: none;
+   width: 100%;
+   height: 15px;
+    position: absolute;
+    display: none;
 }
 
 .horizontal-menu a:hover {
     color: black;
-    transform: scale(1.3);
+    transform: scale(1.2);
     background: white;
     opacity: 0.4;
 }
 
-.horizontal-menu ul {
+.horizontal-menu > li:hover .sub-menu {
     display: block;
-    width: 100%;
-    height: 15px;
-    background: white;
-    position: absolute;
-    top: 120px;
-    left: 0px;
+}
+
+.sub-menu li {
+    width: 150px;
+    margin-top: 3px;
 }
 
 .main-menu {
@@ -130,4 +148,22 @@ body {
 .clearfix {
     clear: both;
     height: 0px;
+}
+
+.problem-description {
+    display: inline-block;
+    font-family: arial;
+    font-size: 40px;
+    background: url("photobank/леопард-потягивается.jpg") no-repeat;
+    width: 100%;
+    color: white;
+    text-align: center;
+    height: 600px;
+    padding-top: 50px;
+}
+
+footer a,
+.share {
+    text-decoration: none;
+    font-family: arial;
 }
