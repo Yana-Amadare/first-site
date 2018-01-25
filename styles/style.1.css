@@ -1,7 +1,7 @@
 header {
-    height: 750px;
-    background: url("photobank/horse-430441_1920.jpg") no-repeat;
-    background-size: 100% 50%;
+    height: 400px;
+    background: url("photobank/nastol.com.ua-171415.jpg") no-repeat;
+    background-size: 100% 400px;
 }
 
 header a {
@@ -87,7 +87,6 @@ body {
     font-family: arial;
     font-size: 30px;
     display: block;
-    padding: 20px;
     color: gray;
 }
 
@@ -101,31 +100,28 @@ body {
 .main-menu ul {
     display: block;
     list-style: none;
-    
 }
 
 .main-menu li {
     display: block;
-    width: 350px;
-    height: 650px;
+    width: 550px;
+    height: 700px;
     background: #ffffff;
     font-family: arial;
     line-height: 22px;
     color: gray;
-    
 }
 
 .monkey {
     float: right;
-    margin-right: 90px;
+    margin-right: 100px;
 }
 
 .panda {
     float: left;
     margin-right: 90px;
-    margin-left: 80px;
+    margin-left: 100px;
 }
-
 
 
 .animal1-description,
@@ -209,20 +205,28 @@ footer a,
 
 .social-vk {
     background-color: #6d8fb3;
-    background-position: 0 1px ;
+    background-position: -14px -13px ;
 }
 
 .social-fb {
     background-color: #526da3;
-    background-position: -45px 1px;
+    background-position: -59px -13px;
 }
 
 .social-tw {
     background-color: #73bfe6;
-    background-position: -90px 1px;
+    background-position: -103px -13px;
 }
 
 .btn {
-    color: white;
-    background: black;
+   display: block;
+   position: relative;
+   background: #004220;
+   color: white;
+   width: 120px;
+   height: 40px;
+   padding: 5px;
+   left: 200px;
+   letter-spacing: 1px;
+   border-radius: 10px;
 }

@@ -87,7 +87,6 @@ body {
     font-family: arial;
     font-size: 30px;
     display: block;
-    padding: 20px;
     color: gray;
 }
 
@@ -153,7 +152,7 @@ body {
     text-align: center;
     height: 70px;
     padding-top: 30px; 
-    background: rgba(255,255,255,0.25);
+    background: rgba(255,255,255,0.2);
     margin-top: 25px;
     position: relative;
     right: 900px;
@@ -179,7 +178,7 @@ body {
     height: 100px;
     background-image: linear-gradient(225deg, rgba(255, 255, 255, 0.2) 50%, transparent 50%);
     position: absolute;
-    left: 749px;
+    left: 750px;
     margin-top: -77px;
     transform: rotate(45deg);
 }
@@ -187,8 +186,7 @@ body {
 .secondary-menu {
     background: url("photobank/леопард-потягивается.jpg") no-repeat;
     width: 100%;
-    height: 600px;
-    
+    height: 600px; 
 }
 
 footer a,
@@ -205,15 +203,12 @@ footer a,
     position: relative;
     padding: 30px;
     left: 550px;
-
 }
-
-
 
 .social {
     display: inline-block;
-    width: 38px;
-    height: 38px;
+    width: 35px;
+    height: 35px;
     margin-left: 10px;
     background: #bdc3c7 url("photobank/SPRITE_social_network.jpg") no-repeat;
     vertical-align: middle;
@@ -222,15 +217,15 @@ footer a,
 
 .social-vk {
     background-color: #6d8fb3;
-    background-position: 0 1px ;
+    background-position: -14px -13px ;
 }
 
 .social-fb {
     background-color: #526da3;
-    background-position: -45px 1px;
+    background-position: -59px -13px;
 }
 
 .social-tw {
     background-color: #73bfe6;
-    background-position: -90px 1px;
+    background-position: -103px -13px;
 }
