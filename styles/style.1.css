@@ -1,7 +1,7 @@
 header {
     height: 750px;
     background: url("photobank/horse-430441_1920.jpg") no-repeat;
-    background-size: 100% 100%;
+    background-size: 100% 50%;
 }
 
 header a {
@@ -115,25 +115,21 @@ body {
     
 }
 
-.humming-bird {
+.monkey {
     float: right;
     margin-right: 90px;
 }
 
-.tiger {
+.panda {
     float: left;
     margin-right: 90px;
     margin-left: 80px;
 }
 
-.flamingo {
-    float: left;
-    margin-right: 80px;
-}
+
 
 .animal1-description,
-.animal2-description,
-.animal3-description {
+.animal2-description {
    display: inine-block;
    padding-left: 20px;
    padding-right: 20px;
@@ -150,9 +146,11 @@ body {
     font-family: arial;
     font-size: 40px;  
     width: 800px;
+    color: white;
     text-align: center;
     height: 70px;
-    padding-top: 30px; 
+    padding-top: 30px;
+    text-shadow: 1px 1px 1px gray;
     background: rgba(255,255,255,0.25);
     margin-top: 25px;
     position: relative;
@@ -160,16 +158,6 @@ body {
     transform: translateX(900px);
     transition-timing-function: linear;
     transition-duration: 15s;
-}
-
-.problem-description a {
-   text-decoration: none;
-   color: white;
-   text-shadow: 1px 1px 1px gray;
-}
-
-.problem-description a:hover {
-    color: #35170c;
 }
 
 .problem-description::after {
@@ -205,7 +193,6 @@ footer a,
     position: relative;
     padding: 30px;
     left: 550px;
-
 }
 
 
@@ -233,4 +220,9 @@ footer a,
 .social-tw {
     background-color: #73bfe6;
     background-position: -90px 1px;
+}
+
+.btn {
+    color: white;
+    background: black;
 }
