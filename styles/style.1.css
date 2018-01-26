@@ -286,7 +286,7 @@ fieldset {
 .email,
 .country,
 .card-number  {
-    width: 50%;
+    width: 60%;
 }
 
 .email input,
@@ -300,16 +300,44 @@ fieldset {
 }
 
 .paycard {
+    display: block;
     background: #dcdcdc;
     background-image: url("photobank/credit_cards1.jpg") no-repeat;
     border-radius: 10px;
     width: 420px;
-    height: 200px;
+    height: 210px;
     padding: 15px;
     margin: 20px;
+    box-shadow: 1px 1px 10px gray;S
 }
 
 .payment-info {
     font-size: 11px;
     
+}
+
+.pay-images {
+    display: inline-block;
+    position: relative;
+    width: 170px;
+    left: 270px;
+    top: -10px;
+}
+
+.card-number label {
+    margin-top: -40px;
+}
+
+.paycard-name {
+    width: 60%;
+}
+
+.paycard-month,
+.paycard-year {
+   width: 17%;
+}
+
+.paycard-month,
+.paycard-year {
+    display: inline-block;
 }
