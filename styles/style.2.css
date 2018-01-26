@@ -15,7 +15,6 @@ header a {
 body {
     margin: 0px;
     padding: 0px;
-    font-family: arial;
 }
 
 .logo {
@@ -95,6 +94,7 @@ body {
     font-family: arial;
     font-size: 20px;
     text-align: center;
+    
 }
 
 .main-menu ul {
@@ -222,94 +222,11 @@ footer a,
    display: block;
    position: relative;
    background: #004220;
-   
+   color: white;
    width: 120px;
    height: 40px;
    padding: 5px;
    left: 200px;
    letter-spacing: 1px;
    border-radius: 10px;
-   
-}
-
-.btn a {
-    text-decoration: none;
-    color: white;
-}
-
-.donate-menu {
-    display: block;
-    position: relative;
-    left: -120px;
-    top: 30px;
-}
-
-input,
-select,
-label,
-legend {
-    font-family: arial;
-    font-size: 15px;
-}
-
-form {
-    width: 510px;
-    margin-left: 180px;
-    padding: 20px;
-    background-color: #e2f7df;
-    border-radius: 10px;
-    box-shadow: 0 0 10px #cccccc;
-}
-
-input,
-select {
-    width: 95%;
-    height: 25px;
-    margin-bottom: 10px;
-    padding: 2px 5px;
-    border: 1px solid #cccccc;
-    border-radius: 5px;
-    vertical-align: middle;
-}
-
-label {
-    display: block;
-    margin-bottom: 5px;
-}
-
-fieldset {
-    padding: 10px;
-    border: 1px solid #34495e;
-    border-radius: 5px;
-}
-
-.email,
-.country,
-.card-number  {
-    width: 50%;
-}
-
-.email input,
-.country select {
-    margin-left: 80px;
-}
-
-.email label {
-    margin-top: -35px;
-    margin-bottom: 15px;
-}
-
-.paycard {
-    background: #dcdcdc;
-    background-image: url("photobank/credit_cards1.jpg") no-repeat;
-    border-radius: 10px;
-    width: 420px;
-    height: 200px;
-    padding: 15px;
-    margin: 20px;
-}
-
-.payment-info {
-    font-size: 11px;
-    
 }
